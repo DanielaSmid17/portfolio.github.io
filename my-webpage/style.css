@@ -1,0 +1,233 @@
+:root{
+    --myred: #E85050;
+    --myyellow: #E8A43F;
+    --mywhite: #F9F9F9;
+    --mygrey:#E1E1E1;
+    --myaqua: #B53E3E;
+
+    
+}
+
+body{ 
+    display: block;
+    margin: 0 5rem;
+    background-color: var(--mywhite);
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.welcome {
+    background-image: url("Imgs/background.jpg");
+    display: flex;
+    flex-flow: row nowrap;
+    height: 30rem;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    /*border: solid 3px black;*/
+    flex-basis: 10%;
+}
+
+.byme{
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-top: -1.3rem;
+}
+
+.text-left{
+    font-size: 120px;
+    color: var(--mywhite);
+    text-align: right;
+    /*border: solid 3px black;*/
+    margin-left: 20.8rem;
+}
+
+.text-right{
+    font-size: 120px;
+    text-align: left;
+    /*border: solid 3px black;*/
+    margin-right: 28.8rem;
+    padding-top: 9rem;
+}
+
+ul {
+    border-top: solid 1px var(--myyellow);
+    border-bottom: solid 1px var(--mygrey);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+li {
+    list-style-type: none;
+    padding: .5rem;
+    margin: .1rem 3rem;
+    font-size: 18px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+a:hover {
+    color: var(--myyellow);
+}
+
+.inpage{
+    color: var(--myaqua);
+}
+
+.readmore{
+    color: var(--myaqua)
+}
+
+article img {
+    float: left;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.article-text{
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    text-align: justify;
+    padding-top: .5rem;
+    /* border: solid 1px black;   */
+    margin-top: 0;
+}
+
+.date{
+    font-size: 14px;
+}
+
+.title{
+    margin-left: 1.5rem;
+    font-size: 32px;
+    display: inline;
+    margin-top: 1rem;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Imgs/daniela-mail.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph{
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    border-radius: 10px;
+    background-color: var(--myred);
+    padding: .5rem 1rem;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    width: 70%;
+    margin-left: 16rem;
+}
+
+textarea {
+	height: 10rem;
+    width: 100%;
+    display: block;
+    }
+
+
+label {
+    display: block;
+    /* border: red 2px solid; */
+}
+
+.input-inline{
+    display: inline;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+input:not([type="radio"]):not([type="checkbox"]){
+    width: 100%;
+}
+
+fieldset {
+    width: 70%;
+    margin-left: 2.5rem;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    padding: 1rem 1.5rem;
+    
+}
+
+
+.little-text {
+    margin-left: 1.5rem; 
+}
+
+button {
+	font-size: 1rem;
+	margin: 1rem 0 1rem 18rem;
+	background-color: var(--myyellow);
+	color: var(var(--mywhite));
+	border: none;
+	padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+
+}
+
+button:hover {
+	background-color: var(--myred);
+	color: black;
+    cursor: pointer;
+}
+
+footer {
+    padding: 1rem 0;
+    /* text-align: center; */
+    font-size: 0.8rem;
+    border-top: 1px solid var(--myred);
+    margin: 0;
+}
+.footer-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 10px;
+
+}
+
+img:hover{
+    opacity: 90%;
+}
